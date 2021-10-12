@@ -1,0 +1,14 @@
+Package: openapi
+Title: R Package Client for Registry of Open Community Challenges API
+Version: 1.0.0
+Authors@R: person("The ROCC Team", email = "thomas.schaffter@sagebionetworks.org", role = c("aut", "cre"))
+Description: The OpenAPI specification implemented by the Challenge Registries. # Introduction TBA 
+URL: https://github.com/GIT_USER_ID/GIT_REPO_ID
+BugReports: https://github.com/GIT_USER_ID/GIT_REPO_ID/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: Apache 2.0
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, base64enc
+RoxygenNote: 6.0.1.9000

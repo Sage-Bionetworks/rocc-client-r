@@ -1,7 +1,6 @@
 {
   "name": "rocc-client",
   "scripts": {
-    "remove:src:dirs": "rm -fr ./api ./model",
     "generate:client": "openapi-generator-cli generate -g r -o . -i $npm_config_specification",
     "generate:client:edge": "npm run remove:src:dirs && openapi-generator-cli generate -g r -o . -i https://sage-bionetworks.github.io/rocc-schemas/edge/openapi.json",
     "generate:client:latest": "npm run remove:src:dirs && openapi-generator-cli generate -g r -o . -i https://sage-bionetworks.github.io/rocc-schemas/latest/openapi.json",
