@@ -6,7 +6,7 @@
     "generate:client:edge": "npm run remove:src:dirs && openapi-generator-cli generate -g r -o . -i https://sage-bionetworks.github.io/rocc-schemas/edge/openapi.json -c client/config.yaml",
     "generate:client:latest": "npm run remove:src:dirs && openapi-generator-cli generate -g r -o . -i https://sage-bionetworks.github.io/rocc-schemas/latest/openapi.json -c client/config.yaml",
     "generate:client:version": "npm run remove:src:dirs && openapi-generator-cli generate -g r -o . -i https://sage-bionetworks.github.io/rocc-schemas/${npm_config_schemas_version}/openapi.json -c client/config.yaml",
-    "release": "release-it",
+    "release": "release-it"
   },
   "dependencies": {
   },
