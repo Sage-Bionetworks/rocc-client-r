@@ -1,3 +1,5 @@
+> May 5, 2022: This project has been moved to [Sage-Bionetworks/challenge-registry](https://github.com/Sage-Bionetworks/challenge-registry).
+
 # R API client for openapi
 
 The OpenAPI specification implemented by the Challenge Registries.
